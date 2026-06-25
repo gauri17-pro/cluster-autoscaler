@@ -22,7 +22,7 @@
 
 - Create an EKS Cluster
   ```
-  eksctl create cluster --name my-cluster --region ap-south-1 --node-type t3.medium --version 1.35
+  eksctl create cluster --name my-cluster --region ap-south-1 --node-type t3.medium --nodes 1 --version 1.35
   ```
 
 ---
